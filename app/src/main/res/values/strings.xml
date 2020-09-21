@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Shoppy</string>
+    <string name="Shoppy">Shoppy.Com</string>
+    <string name="Welcome">Welcome</string>
+    <string name="Welcometo">Welcome To Shoppy</string>
+    <string name="Contactus">Contact US</string>
+    <string name="Profile">Profile</string>
+    <string name="Setting">Setting</string>
+    <string name="Orders">Orders</string>
+    <string name="Cart">Cart</string>
+    <string name="Menu">Menu</string>
+    <string name="Category">Categeory</string>
+    <string name="helpcenter">help center</string>
+    <string name="notifications">Notfications</string>
+    <string name="myaccount">My Account</string>
+    <string name="wishlist">Wish List</string>
+    <string name="mywishlist">My Wishlist</string>
+    <string name="logout">Log Out</string>
+    <string name="search">Search</string>
+    <string name="login">Log In</string>
+    <string name="editprofile">Edit Profile</string>
+    <string name="changeaddress">Change Address</string>
+    <string name="helpandfeedback">Help And Feedback</string>
+    <string name="SecuritySetting">Security Setting</string>
+    <string name="AboutUs">About Us</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="Phoneno">Phone No</string>
+    <string name="emailid">Email ID</string>
+    <string name="register">Register</string>
+    <string name="Myprofile">My Profile</string>
+    <string name="navigation_drawer_open">Open Navigation drawer</string>
+    <string name="navigation_drawer_close">Close Navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

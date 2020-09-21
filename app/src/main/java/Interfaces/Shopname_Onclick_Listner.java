@@ -1,0 +1,8 @@
+package Interfaces;
+
+import android.view.View;
+
+public interface Shopname_Onclick_Listner
+{
+    void onClick(View view, int position, boolean isLongClick);
+}

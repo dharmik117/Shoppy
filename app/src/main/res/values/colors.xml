@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF6D00</color>
+    <color name="colorPrimarye">#FF35A7BB</color>
+    <color name="colorAccent">#FF35A7BB</color>
+    <color name="colorPrimaryDark">#FB7D20</color>
+    <color name="colorgreenwa">#00574B</color>
+    <color name="titcolor">#000000</color>
+    <color name="Bgcolor">#FFAB40</color>
+    <color name="Btncolor">#FF5252</color>
+    <color name="Topbar">#FF35A7BB</color>
+    <color name="Black">#000000</color>
+    <color name="Toolbar">#0091EA</color>
+    <color name="extra">#35A7BB</color>
+    <color name="orange">#FF9000</color>
+    <color name="grd2">#FECFB3</color>
+    <color name="grey">#7E7E7E</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transperntwhite">#50FFFFFF</color>
+
+</resources>

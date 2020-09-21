@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/profilePage">
+
+
+    <activity
+        android:id="@+id/profilePage"
+        android:name="com.example.shoppy.ProfilePage"
+        android:label="activity_profile_page"
+        tools:layout="@layout/activity_profile_page" />
+    <activity
+        android:id="@+id/notificationpage"
+        android:name="com.example.shoppy.Notificationpage"
+        android:label="activity_notificationpage"
+        tools:layout="@layout/activity_notificationpage" />
+    <activity
+        android:id="@+id/orderpae"
+        android:name="com.example.shoppy.Orderpae"
+        android:label="activity_orderpae"
+        tools:layout="@layout/activity_orderpae" />
+
+    <activity
+        android:id="@+id/settingpage"
+        android:name="com.example.shoppy.settingpage"
+        android:label="Setting"
+        tools:layout="@layout/activity_settingpage" />
+</navigation>

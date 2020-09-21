@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradientorange"
+    tools:context=".Search_Activity">
+
+    <EditText
+        android:id="@+id/saedittext"
+        android:layout_width="@dimen/_275sdp"
+        android:layout_height="?actionBarSize"
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_50sdp"
+        android:hint="Search Products"
+        android:imeOptions="actionSearch"
+        android:inputType="textFilter"
+        />
+
+    <ImageView
+        android:id="@+id/assearchbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/saedittext"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:src="@drawable/ic_search"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@+id/saedittext"
+        android:id="@+id/asrecycle"
+        android:layout_width="406dp"
+        android:layout_height="640dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/saedittext"
+        tools:layout_editor_absoluteX="5dp"
+        tools:ignore="MissingConstraints" />
+
+
+</RelativeLayout>

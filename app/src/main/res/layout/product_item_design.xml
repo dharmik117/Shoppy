@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/homepagedesign"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:layout_marginStart="@dimen/_15sdp"
+    android:layout_marginTop="@dimen/_15sdp"
+    android:layout_marginEnd="@dimen/_15sdp"
+    app:cardCornerRadius="@dimen/_15sdp"
+    android:background="@drawable/gradientorange"
+    android:elevation="15dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/grdhori">
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/endshape"
+            android:layout_marginLeft="300dp" />
+
+        <ImageView
+            android:id="@+id/shopimage"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginStart="@dimen/_12sdp"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:layout_marginLeft="@dimen/_12sdp"
+            android:background="@drawable/ovalshape"
+            android:contentDescription="@string/app_name"
+            android:padding="@dimen/_10sdp"
+            android:src="@drawable/product_default_image"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <TextView
+            android:id="@+id/txtshopname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_80sdp"
+            android:layout_marginRight="@dimen/_80sdp"
+            android:text="Name"
+            android:textSize="@dimen/_18sdp"
+            android:maxLines="1"
+            android:textStyle="bold"
+            android:layout_marginTop="18dp"
+            android:layout_marginStart="90dp"
+            android:layout_marginLeft="90dp" />
+
+        <TextView
+            android:id="@+id/txtshopdes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="92dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginEnd="@dimen/_80sdp"
+            android:layout_marginRight="@dimen/_80sdp"
+            android:maxLines="1"
+            android:text="Descryption"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold"
+            app:autoSizeMaxTextSize="33dp" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
+

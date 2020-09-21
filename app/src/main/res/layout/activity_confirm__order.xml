@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Confirm_Order">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt"
+        android:text="Please Write Your details"
+        android:textSize="18dp"
+        android:textColor="@color/Black"
+        android:layout_margin="25dp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        />
+
+        <EditText
+            android:id="@+id/coname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="Your Name"/>
+
+    <EditText
+        android:id="@+id/cophone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/coname"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:inputType="number"
+        android:layout_marginRight="20dp"
+        android:hint="Phone Number"
+        />
+    <EditText
+        android:id="@+id/coaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cophone"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Address"
+        />
+
+    <EditText
+        android:id="@+id/cocity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/coaddress"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="City"
+
+        />
+
+    <TextView
+        android:id="@+id/tp"
+        android:textSize="30dp"
+        android:textColor="@color/Black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cocity"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:text="Your Total Price Is" />
+
+
+    <TextView
+        android:textSize="40dp"
+        android:textColor="@color/Black"
+        android:id="@+id/cototal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:hint="Price" />
+
+    <Button
+        android:id="@+id/coconfirmbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/capbtn"
+        android:layout_margin="20dp"
+        android:text="Confirm"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_menu">
+
+    <group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/profilePage"
+        android:icon="@drawable/profile"
+        android:title="Profile"/>
+
+    <item
+         android:id="@+id/notificationpage"
+        android:icon="@drawable/notificationss"
+        android:title="Notifications"/>
+
+    <item
+        android:id="@+id/orderpae"
+        android:icon="@drawable/order"
+        android:title="Orders"/>
+
+    <item
+        android:id="@+id/settingpage"
+        android:icon="@drawable/settings"
+        android:title="Setting"/>
+
+        <item
+            android:id="@+id/cartpage"
+            android:icon="@drawable/cart"
+            android:title="Cart"
+            android:iconTint="#FF9800"/>
+
+
+
+    </group>
+
+
+</menu>

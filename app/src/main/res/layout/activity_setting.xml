@@ -1,0 +1,177 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradientorange">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/colllayout"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:fitsSystemWindows="false"
+            app:layout_collapseMode="pin"
+            app:title="@string/Setting"
+            app:layout_scrollFlags="exitUntilCollapsed|scroll"
+            app:popupTheme="@style/ThemeOverlay.MaterialComponents.Light"
+            app:statusBarScrim="@drawable/gradientorange">
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="20dp"
+                android:layout_margin="40dp"
+                android:src="@drawable/setting" />
+
+            <include layout="@layout/activity_toolbar"/>
+
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+
+        <LinearLayout
+            android:background="@drawable/gradientorange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_margin="@dimen/_10sdp"
+                android:padding="@dimen/_30sdp"
+                app:cardCornerRadius="30dp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/lleditprofile"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/gradientyellow">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:gravity="center"
+                        android:text="@string/editprofile"
+                        android:textColor="@color/Black"
+                        android:textSize="@dimen/_25sdp">
+
+                    </TextView>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_10sdp"
+                android:padding="@dimen/_10sdp"
+                app:cardCornerRadius="@dimen/_25sdp">
+
+                <LinearLayout
+                android:id="@+id/llsecuritysetting"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/gradientyellow">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/SecuritySetting"
+                        android:textSize="@dimen/_25sdp"
+                        android:textColor="@color/Black"
+                        android:gravity="center">
+
+                    </TextView>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_margin="@dimen/_10sdp"
+                android:padding="@dimen/_30sdp"
+                app:cardCornerRadius="30dp">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/gradientyellow">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/AboutUs"
+                        android:textColor="@color/Black"
+                        android:textSize="@dimen/_25sdp">
+
+                    </TextView>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_margin="@dimen/_10sdp"
+                android:padding="@dimen/_30sdp"
+                app:cardCornerRadius="30dp">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/gradientyellow">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/AboutUs"
+                        android:textColor="@color/Black"
+                        android:textSize="@dimen/_25sdp">
+
+                    </TextView>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
